@@ -6,7 +6,7 @@
 /*   By: kkamei <kkamei@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 16:48:35 by kkamei            #+#    #+#             */
-/*   Updated: 2025/06/03 17:30:35 by kkamei           ###   ########.fr       */
+/*   Updated: 2025/06/11 11:47:30 by kkamei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	put_strarr(char **str)
 	i = 0;
 	while (str[i])
 	{
-		printf("[%d] %s,\n", i, str[i]);
+		printf("[%d] \"%s\",\n", i, str[i]);
 		i++;
 	}
 }
