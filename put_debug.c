@@ -6,7 +6,7 @@
 /*   By: kkamei <kkamei@student.42tokyo.jp>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/07 16:48:35 by kkamei            #+#    #+#             */
-/*   Updated: 2025/09/16 11:09:22 by kkamei           ###   ########.fr       */
+/*   Updated: 2025/09/16 11:10:07 by kkamei           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	put_strarr(char **str)
 
 	if (str == NULL)
   {
-    printf("(null)");
+    printf("(null)\n");
 		return ;
   }
 	i = 0;
